@@ -1,0 +1,41 @@
+/* 
+* - универсальный селектор
+name - селектор по имени  
+.class - селектор по классу
+#id - селектор по id 
+*/
+
+* {
+    color:brown;
+    margin: 0;
+    font-size: 16px;    
+}
+
+h1 {
+    color: yellow;
+    font-size: 50px;
+}
+
+.header {
+    color: aqua;
+    font-size: 30px;
+    padding: 10px;
+    border: 10px dashed black;
+    margin: 20px;
+
+}
+
+span {
+    font-size: 30px;
+    border: solid;
+    border-color: aqua;
+
+}
+
+
+#header-4 {
+    color: pink;
+    font-size: 80px;
+    border: solid;
+    margin: 50px 0 100px 20px
+}
